@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Revision</title>
+</head>
+<body>
+    <h1>It's 17 June, 2024. I am revising JS today. </h1>
+
+    <script>
+        //constructor function (using this, we can create many objects as per our needs)
+        function Rectangle(len, bre){
+            this.length = len;
+            this.breadth = bre;
+
+            this.draw = function(){
+                console.log("drawing rectangle");
+            }
+        }
+
+        let rectObj = new Rectangle(4,5);
+        console.log(rectObj);
+
+
+        //iterating through objects
+        let obj = {
+            length: 2,
+            breadth: 4
+        }
+
+        for( let key in obj)
+        {
+            console.log(key); //output:    length
+                              //           breadth
+        }
+        
+        for(let key in obj)
+        {
+            console.log(obj[key]);   
+            // output:  2
+            //          4
+        }
+
+
+        let arr = [2,4,5,6,9];
+        for(let key of arr)   //for-of loop can be used only over iterables i.e. Arrays, Maps etc. 
+        {
+            console.log(key);
+        }
+
+        //string functions in javascript
+
+        let firstName = 'Vikas';
+
+        console.log(firstName.length);
+        console.log(firstName.includes('i'));
+        console.log(firstName.replace('Vi', 'ci'));
+        console.log(firstName.startsWith('i'));
+        console.log(firstName.indexOf('k'));
+
+        let string = "this is my first message";
+        console.log(string);
+
+        let string2 = "this is \' my first \\ message";
+        console.log(string2);
+
+        let string3 = `this is 
+                     my first
+                         message`;
+        console.log(string3);
+
+    </script>
+</body>
+</html>
