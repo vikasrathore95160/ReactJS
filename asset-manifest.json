@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-second-app/static/css/main.f855e6bc.css",
-    "main.js": "/my-second-app/static/js/main.b9a44101.js",
-    "static/js/453.d7a49f70.chunk.js": "/my-second-app/static/js/453.d7a49f70.chunk.js",
-    "index.html": "/my-second-app/index.html",
-    "main.f855e6bc.css.map": "/my-second-app/static/css/main.f855e6bc.css.map",
-    "main.b9a44101.js.map": "/my-second-app/static/js/main.b9a44101.js.map",
-    "453.d7a49f70.chunk.js.map": "/my-second-app/static/js/453.d7a49f70.chunk.js.map"
+    "main.css": "/ReactJS/my-second-app/static/css/main.f855e6bc.css",
+    "main.js": "/ReactJS/my-second-app/static/js/main.fc72713b.js",
+    "static/js/453.d7a49f70.chunk.js": "/ReactJS/my-second-app/static/js/453.d7a49f70.chunk.js",
+    "index.html": "/ReactJS/my-second-app/index.html",
+    "main.f855e6bc.css.map": "/ReactJS/my-second-app/static/css/main.f855e6bc.css.map",
+    "main.fc72713b.js.map": "/ReactJS/my-second-app/static/js/main.fc72713b.js.map",
+    "453.d7a49f70.chunk.js.map": "/ReactJS/my-second-app/static/js/453.d7a49f70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.b9a44101.js"
+    "static/js/main.fc72713b.js"
   ]
 }
